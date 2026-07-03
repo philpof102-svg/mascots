@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T09:52:09.218Z",
+  "generatedAt": "2026-07-03T14:51:03.177Z",
   "mascots": [
     {
       "description": "Sci-fi HUD ring mascot inspired by Iron Man's J.A.R.V.I.S. Features a rotating idle state, listening pulse, and talking animation — controlled via a single ViewModel number property (animState).",
@@ -196,7 +196,7 @@
   "schemaVersion": 1,
   "source": {
     "branch": "main",
-    "commit": "local",
+    "commit": "f0da0d3d02bf703333d8e418ef356d2e7ad58569",
     "repository": "tinyhumansai/mascots"
   }
 }
