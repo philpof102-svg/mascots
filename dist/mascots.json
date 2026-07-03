@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-07-03T17:14:55.161Z",
+  "generatedAt": "2026-07-03T14:51:03.177Z",
   "mascots": [
+    {
+      "description": "Sci-fi HUD ring mascot inspired by Iron Man's J.A.R.V.I.S. Features a rotating idle state, listening pulse, and talking animation — controlled via a single ViewModel number property (animState).",
+      "files": [
+        {
+          "bytes": 63252,
+          "path": "mascots/jarvis/jarvis.riv",
+          "role": "runtime",
+          "sha256": "8a6c79125339f507047149648f4786b384cd8bd5cda0226fefb12df173c70a5a",
+          "url": "https://raw.githubusercontent.com/tinyhumansai/mascots/main/mascots/jarvis/jarvis.riv"
+        },
+        {
+          "bytes": 184057,
+          "path": "mascots/jarvis/jarvis.rev",
+          "role": "source",
+          "sha256": "afde0e8f0a9c12485d90d14c4664f0806bf0266a288bee8f2e3d6a717c9893ed",
+          "url": "https://raw.githubusercontent.com/tinyhumansai/mascots/main/mascots/jarvis/jarvis.rev"
+        }
+      ],
+      "id": "jarvis",
+      "name": "Jarvis",
+      "stateEngine": {
+        "idlePoseCycle": [
+          "JarvisRotate"
+        ],
+        "states": {
+          "idle": "JarvisRotate",
+          "thinking": "listening"
+        },
+        "visemeCodes": [
+          "sil",
+          "PP",
+          "FF",
+          "TH",
+          "DD",
+          "kk",
+          "CH",
+          "SS",
+          "nn",
+          "RR",
+          "aa",
+          "E",
+          "ih",
+          "oh",
+          "ou"
+        ]
+      },
+      "status": "draft",
+      "tags": [
+        "ai",
+        "hud",
+        "openhuman",
+        "scifi"
+      ]
+    },
     {
       "description": "Default OpenHuman mascot built in Rive Studio.",
       "files": [
@@ -143,7 +197,7 @@
   "schemaVersion": 1,
   "source": {
     "branch": "main",
-    "commit": "local",
+    "commit": "f0da0d3d02bf703333d8e418ef356d2e7ad58569",
     "repository": "tinyhumansai/mascots"
   }
 }
