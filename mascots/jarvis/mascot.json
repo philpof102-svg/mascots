@@ -5,33 +5,23 @@
   "status": "draft",
   "tags": ["hud", "scifi", "ai", "openhuman"],
   "stateEngine": {
+    "visemeCodes": ["sil", "PP", "FF", "TH", "DD", "kk", "CH", "SS", "nn", "RR", "aa", "E", "ih", "oh", "ou"],
     "states": {
       "idle": "JarvisRotate",
-      "listening": "listening",
-      "talking": "talking"
+      "thinking": "listening"
     },
     "idlePoseCycle": [
       "JarvisRotate"
-    ],
-    "viewModel": {
-      "name": "ViewModel1",
-      "stateMachine": "JarvisSM",
-      "properties": {
-        "animState": {
-          "type": "number",
-          "values": {
-            "0": "JarvisRotate",
-            "1": "listening",
-            "2": "talking"
-          }
-        }
-      }
-    }
+    ]
   },
   "files": [
     {
       "role": "runtime",
       "path": "jarvis.riv"
+    },
+    {
+      "role": "source",
+      "path": "jarvis.rev"
     }
   ]
 }
