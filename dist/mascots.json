@@ -114,7 +114,7 @@
       ]
     },
     {
-      "description": "Uploaded Toshi mascot asset. Marked draft until the Rive state machine matches the OpenHuman runtime contract.",
+      "description": "A friendly community mascot for OpenHuman, featuring expressive animations and interactive states.",
       "files": [
         {
           "bytes": 2259491,
@@ -186,10 +186,11 @@
           "ou"
         ]
       },
-      "status": "draft",
+      "status": "ready",
       "tags": [
-        "draft",
-        "openhuman"
+        "community",
+        "openhuman",
+        "ready"
       ]
     }
   ],

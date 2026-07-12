@@ -1,9 +1,9 @@
 {
   "id": "toshi",
   "name": "Toshi",
-  "description": "Uploaded Toshi mascot asset. Marked draft until the Rive state machine matches the OpenHuman runtime contract.",
-  "status": "draft",
-  "tags": ["draft", "openhuman"],
+  "description": "A friendly community mascot for OpenHuman, featuring expressive animations and interactive states.",
+  "status": "ready",
+  "tags": ["community", "openhuman", "ready"],
   "stateEngine": {
     "visemeCodes": [
       "sil",
